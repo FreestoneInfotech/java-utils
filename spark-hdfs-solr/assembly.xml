@@ -1,0 +1,24 @@
+<assembly>
+  <id>jar-with-dependencies</id>
+  <formats>
+    <format>jar</format>
+  </formats>
+  
+  <includeBaseDirectory>false</includeBaseDirectory>
+  <dependencySets>
+    <dependencySet>
+    <unpack>true</unpack>
+      <includes>
+      <include>commons-cli:commons-cli</include>
+      <include>${groupId}:${artifactId}</include>
+      <include>com.lucidworks.spark:spark-solr</include>
+       <include>com.typesafe.scala-logging:scala-logging_2.11</include>
+       <include>org.apache.httpcomponents:httpmime</include>
+       <include>org.noggit:noggit</include>
+       <include>com.google.guava:guava</include>
+       <include>org.apache.solr:solr-solrj</include>
+      </includes>
+    </dependencySet>
+  </dependencySets>
+</assembly>
+

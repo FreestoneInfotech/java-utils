@@ -1,4 +1,7 @@
-#Steps to try out
+Utility to write big file from hdfs to solr using spark
+
+
+##Steps to try out
 
 ###1. Build cmd
 ```
